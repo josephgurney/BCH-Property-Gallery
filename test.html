@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/lightbox.css" rel="stylesheet" />
+<style type="text/css">
+body {
+	padding:0;
+	margin:0 auto;
+	width:960px;
+}
+ul {
+	list-style:none;
+}
+li {
+	overflow:hidden;
+	display:inline-block;
+	width:200px;
+	height:200px;
+	margin:5px;
+}
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+	opacity:0.3;
+}
+.lb-nav a.lb-next:hover {
+	right: -11%;
+}
+.lb-nav a.lb-prev:hover {
+	left: -11%;
+}
+.lb-nav a.lb-prev {
+	width: 60%;
+	left: -70px;
+	position: absolute;
+	position: absolute;
+	transition:left 0.3s ease;
+	-webkit-transition:left 0.3s ease;
+	-moz-transition:left 0.3s ease;
+	-o-transition:left 0.3s ease;
+}
+.lb-nav a.lb-next {
+	width: 60%;
+	right: -10%;
+	position: absolute;
+	transition:right 0.3s ease;
+	-webkit-transition:right 0.3s ease;
+	-moz-transition:right 0.3s ease;
+	-o-transition:right 0.3s ease;
+}
+.thumbnail {
+	position: relative;
+	z-index: 1;
+	width: auto;
+	height: 230px;
+	left: auto;
+	top: auto;
+}
+li {
+	position:relative;
+	opacity:1;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+li:hover {
+	opacity:0.5;
+}
+.gallery-open {
+	background: url("http://www.bluechipholidays.co.uk/sites/all/themes/bluechip/images/gallery-open.png") no-repeat scroll bottom center transparent;
+	background-size:0;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	z-index: 999;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+.gallery-open:hover {
+	background-size:auto;
+	background: url("http://www.bluechipholidays.co.uk/sites/all/themes/bluechip/images/gallery-open.png") no-repeat scroll center center transparent;
+}
+.lb-data .lb-caption{font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",serif;
+font-size: 20px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 0px;
+margin-left: 0;}
+.lb-data .lb-close{
+background:url("http://46.236.27.122:8080/media/catalogs/public/downloads/originals/users/JosephG/2014/08/close_51325.png/close_51325.png") no-repeat center right;
+text-align: left;
+float: right;
+width: 55px;
+height:32px;
+
+}
+.lb-data .lb-number {padding-top:12px; font-family:Arial, Helvetica, sans-serif;}
+.lb-dataContainer {margin: -5px auto; background:#ffffff;}
+.lb-data {color: #333; padding: 20px;}
+</style>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.js"></script>
+</head>
+
+<body>
+<ul>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom Villa_114.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom Villa_114.jpg/gallery.jpg" /></a></li>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_100.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_100.jpg/gallery.jpg" /></a></li>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_016.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_016.jpg/gallery.jpg" /></a></li>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa20100806_033DSC_4510.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa20100806_033DSC_4510.jpg/gallery.jpg" /></a></li>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_084.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_084.jpg/gallery.jpg" /></a></li>
+  <li><a href="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_107.jpg/gallery.jpg" data-lightbox="gallery" data-title="The spectacular view from the balcony">
+    <div class="gallery-open"></div>
+    <img class="thumbnail" alt="" title="" src="http://assets.bluechipholidays.co.uk:8080/media/catalogs/public/downloads/preview/custom_gallery/users/mikeD/2013/08/Trencrom%20Villa_107.jpg/gallery.jpg" /></a></li>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin:0 auto;
+	width:960px;
+	line-height:100%;
+}
+
+.wrapper {
+	padding:0;
+	margin:0;}
+
+.lb-box {
+		overflow:hidden;
+	display:inline-block;
+	width:200px;
+	height:200px;
+	margin:5px 5px 0 5px;	
+	position:relative;
+	opacity:1;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=100, duration=0.3) ;
+}
+
+.lb-box a{
+	display:inline-block;
+}
+.lb-box:hover {
+	opacity:0.5;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=50, duration=0.3) ;
+}
+
+
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+	opacity:0.3;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=30, duration=0.3) ;
+}
+.lb-nav a.lb-next:hover {
+	right: -11%;
+}
+.lb-nav a.lb-prev:hover {
+	left: -11%;
+}
+.lb-nav a.lb-prev {
+	width: 60%;
+	left: -70px;
+	position: absolute;
+	position: absolute;
+	transition:left 0.3s ease;
+	-webkit-transition:left 0.3s ease;
+	-moz-transition:left 0.3s ease;
+	-o-transition:left 0.3s ease;
+	
+}
+.lb-nav a.lb-next {
+	width: 60%;
+	right: -10%;
+	position: absolute;
+	transition:right 0.3s ease;
+	-webkit-transition:right 0.3s ease;
+	-moz-transition:right 0.3s ease;
+	-o-transition:right 0.3s ease;
+	
+}
+.thumbnail {
+	position: relative;
+	z-index: 1;
+	width: auto;
+	height: 230px;
+	left: auto;
+	top: auto;
+	border:none;
+	
+}
+
+.thumbnail:hover {
+
+	}
+
+.gallery-open {
+	background: url("http://www.bluechipholidays.co.uk/sites/all/themes/bluechip/images/gallery-open.png") no-repeat scroll center center transparent;
+    opacity:0;
+	cursor: pointer;
+	position: absolute;
+left: -25px;
+top: -25px;
+width: 250px;
+height: 250px;
+	z-index: 999;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=0, duration=0.3) ;
+	transform:scale(0.8);
+}
+.gallery-open:hover {
+background: url("http://www.bluechipholidays.co.uk/sites/all/themes/bluechip/images/gallery-open.png") no-repeat scroll center center transparent;
+    opacity:1;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100, duration=0.3);
+		transform:scale(1);
+}
+.lb-data .lb-caption{font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",serif;
+font-size: 20px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 0px;
+margin-left: 0;}
+.lb-data .lb-close{
+background:url("http://46.236.27.122:8080/media/catalogs/public/downloads/originals/users/JosephG/2014/08/close_51325.png/close_51325.png") no-repeat right center;
+text-align: left;
+float: right;
+width: 52px;
+height:auto;
+vertical-align:top;
+padding-left:5px;
+padding-bottom:3px;
+margin-bottom:-3px;
+}
+.lb-close p{color:#333; margin:0; line-height:1em; margin-bottom: -3px;}
+.lb-data .lb-number {padding-top:12px; font-family:Arial, Helvetica, sans-serif;}
+.lb-dataContainer {margin: -5px auto; background:#ffffff;}
+.lb-data {color: #333; padding: 20px;}
